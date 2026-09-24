@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s);
 let services=[],filter='All',partners=[];
 const partnerFlows=new Set(['restaurant','villa','boat','motorbike','car','van','airport','driver','partner']);
-const flowMap={'Restaurant Booking':'restaurant','Villa Search':'villa','Private Yacht':'boat','Sunset Cruise':'boat','Snorkeling':'boat','Fishing':'boat','Boat Transfer':'boat','Scooter Rental':'motorbike','Motorbike Rental':'motorbike','Car Rental':'car','Private Van':'van','Airport Transfer':'airport','Private Driver':'driver'};
+const flowMap={};
 const presets={
  restaurant:[['date','Date','date',true],['time','Preferred time','time',true],['guests','Guests','number',true],['seating','Seating preference','select',false,['Indoor','Terrace','Beachfront','No preference']],['occasion','Occasion','text',false],['dietary','Dietary requirements','text',false]],
  villa:[['check_in','Check-in','date',true],['check_out','Check-out','date',true],['guests','Guests','number',true],['bedrooms','Bedrooms','number',false],['budget','Budget / night (THB)','number',false],['villa_type','Villa type','select',false,['Private pool','Beachfront','Family','Luxury','No preference']]],

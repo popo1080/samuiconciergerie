@@ -326,30 +326,6 @@
     }
   ],
   "payments": [],
-  "partners": [
-    {
-      "id": 1,
-      "name": "Wasana Massage",
-      "category": "Wellness",
-      "service": "Villa Massage",
-      "description": "Professional outcall massage at the client's villa.",
-      "base_zone": "Koh Samui",
-      "zones": [
-        "Chaweng",
-        "Bophut",
-        "Choeng Mon",
-        "Maenam",
-        "Lamai",
-        "Nathon",
-        "Lipa Noi",
-        "Taling Ngam"
-      ],
-      "whatsapp": "",
-      "price_from": 1180,
-      "commission_type": "percentage",
-      "commission_value": 10,
-      "active": true
-    }
-  ],
+  "partners": [],
   "partner_applications": []
 }
