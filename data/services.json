@@ -24,8 +24,8 @@
     "id": 4,
     "category": "Services",
     "name": "Water Sports",
-    "description": "Water-based activities and fun on the sea.",
-    "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=82"
+    "description": "Jet ski, water sports and fun on the sea around Koh Samui.",
+    "image": "/media/water-sports-jetski.jpg"
   },
   {
     "id": 5,
@@ -122,8 +122,8 @@
     "id": 18,
     "category": "Services",
     "name": "Adventure & Off-Road",
-    "description": "ATV, off-road and adventure experiences.",
-    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=82"
+    "description": "ATV, quad, jungle tours, off-road and adventure experiences.",
+    "image": "/media/adventure-atv-jungle.jpg"
   },
   {
     "id": 19,
@@ -222,12 +222,5 @@
     "name": "Private Chef & Dining Experiences",
     "description": "Private chefs, dinners and culinary experiences at home or in a villa.",
     "image": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=82"
-  },
-  {
-    "id": "visa-run",
-    "name": "Visa Run",
-    "description": "Visa run and border-run assistance in and around Koh Samui.",
-    "image": "/media/fallbacks/experiences.svg",
-    "category": "Services"
   }
 ]
