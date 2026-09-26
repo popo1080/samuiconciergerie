@@ -1,0 +1,14 @@
+TELEGRAM SETUP — SAMUI CONCIERGE
+
+1. Create a file named .env in the same folder as server.js.
+2. Put:
+   TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN
+   TELEGRAM_CHAT_ID=8859121321
+   PORT=3000
+3. Run: npm start
+4. Open: http://localhost:3000/api/telegram-status
+5. Then open: http://localhost:3000/api/telegram-test
+
+If Telegram fails, the response now includes Telegram's actual error description.
+The bot must have been started from the personal Telegram account that owns chat ID 8859121321.
+Never publish .env or the bot token to GitHub.
